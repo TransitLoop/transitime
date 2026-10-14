@@ -15,6 +15,7 @@
     <module>transitclockWebapp</module>
     <module>transitclockQuickStart</module>
     <module>transitclockTraccarClient</module>
+    <module>transitclockScaniaRfmsClient</module>
     <module>transitclockBarefootClient</module>
   </modules>
     <profiles>
@@ -33,6 +34,7 @@
               	<module>transitclockWebapp</module>
  		<module>transitclockQuickStart</module>
  		<module>transitclockTraccarClient</module>
+ 		<module>transitclockScaniaRfmsClient</module>
  		<module>transitclockBarefootClient</module>
             </modules>
         </profile>

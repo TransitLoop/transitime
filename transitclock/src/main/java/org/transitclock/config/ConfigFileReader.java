@@ -288,7 +288,13 @@ public class ConfigFileReader {
 					// Set the system property with the value
 					System.setProperty(propertyName, value);
 
-					System.out.println("Setting property name " + propertyName + " to value " + value);
+					String printable = value;
+					String lowerName = propertyName.toLowerCase();
+					if (lowerName.contains("secret") || lowerName.contains("password")
+							|| lowerName.contains("clientid")) {
+						printable = "(not logged)";
+					}
+					System.out.println("Setting property name " + propertyName + " to value " + printable);
 				}
 			}
 		} catch (IOException e) {

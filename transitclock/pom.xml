@@ -219,6 +219,13 @@
 			<version>20140107</version>
 		</dependency>
 
+		<!-- Scania rFMS 4.0 vehicle-position client used by ScaniaRfmsAVLModule -->
+		<dependency>
+			<groupId>TheTransitClock</groupId>
+			<artifactId>transitclockScaniaRfmsClient</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 		<!-- For parsing CSV files, such as GTFS ones -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>

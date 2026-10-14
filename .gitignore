@@ -11,4 +11,5 @@
 /bin/
 /.settings/
 .DS_Store
+config/local/
 
