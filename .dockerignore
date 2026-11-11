@@ -1,8 +1,0 @@
-.git
-**/.git
-**/target
-**/*.iml
-.idea
-**/.DS_Store
-**/*.log
-**/dependency-reduced-pom.xml
